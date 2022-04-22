@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA7451252811E5F100EE8B9C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7451242811E5F100EE8B9C /* MainView.swift */; };
+		CA7451272811E6E700EE8B9C /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7451262811E6E700EE8B9C /* PlanView.swift */; };
+		CA7451292811E70600EE8B9C /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7451282811E70600EE8B9C /* CreateView.swift */; };
+		CA74512B2812612300EE8B9C /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA74512A2812612200EE8B9C /* EventDetailView.swift */; };
 		CAA50917280E105B00766081 /* Event_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA50916280E105B00766081 /* Event_AppApp.swift */; };
 		CAA50919280E105B00766081 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA50918280E105B00766081 /* ContentView.swift */; };
 		CAA5091B280E106000766081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA5091A280E106000766081 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA7451242811E5F100EE8B9C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CA7451262811E6E700EE8B9C /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		CA7451282811E70600EE8B9C /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		CA74512A2812612200EE8B9C /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		CAA50913280E105B00766081 /* Event App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA50916280E105B00766081 /* Event_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event_AppApp.swift; sourceTree = "<group>"; };
 		CAA50918280E105B00766081 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				CAA50916280E105B00766081 /* Event_AppApp.swift */,
+				CA7451242811E5F100EE8B9C /* MainView.swift */,
 				CAA50918280E105B00766081 /* ContentView.swift */,
+				CA7451282811E70600EE8B9C /* CreateView.swift */,
+				CA7451262811E6E700EE8B9C /* PlanView.swift */,
+				CA74512A2812612200EE8B9C /* EventDetailView.swift */,
 				CAA5091A280E106000766081 /* Assets.xcassets */,
 				CAA5091C280E106000766081 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA50919280E105B00766081 /* ContentView.swift in Sources */,
+				CA7451252811E5F100EE8B9C /* MainView.swift in Sources */,
+				CA74512B2812612300EE8B9C /* EventDetailView.swift in Sources */,
 				CAA50917280E105B00766081 /* Event_AppApp.swift in Sources */,
+				CA7451272811E6E700EE8B9C /* PlanView.swift in Sources */,
+				CA7451292811E70600EE8B9C /* CreateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Event App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CS5KZLNNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Event App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CS5KZLNNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
