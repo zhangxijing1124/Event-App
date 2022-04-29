@@ -16,7 +16,7 @@ struct Post {
     let username, text, profileImageName, imageName: String
 }
 
-struct Locationlist {
+struct Locationlist: Hashable,Codable,Identifiable {
     
     var id: Int
     var totalPeople: Int
@@ -26,6 +26,10 @@ struct Locationlist {
     var type: String
     var address: String
     var imageName: String
+    
+    var image: Image {
+        Image(imageName)
+    }
     
     var latitude: Double
     var longitude: Double
