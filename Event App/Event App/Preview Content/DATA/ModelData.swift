@@ -7,6 +7,7 @@
 
 import Foundation
 
+// EventData
 var LocationData: [Locationlist] = load("EventData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
@@ -30,3 +31,7 @@ func load<T: Decodable>(_ filename: String) -> T {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
+
+// LocationData
+
+

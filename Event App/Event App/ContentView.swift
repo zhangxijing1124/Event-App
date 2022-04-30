@@ -126,7 +126,7 @@ struct ContentView: View {
                     PostView(post: post)
                 }
             }
-            .navigationTitle("Event App")
+            .navigationTitle("Explore events")
             .listStyle(GroupedListStyle())
 //            .ignoresSafeArea()
         }

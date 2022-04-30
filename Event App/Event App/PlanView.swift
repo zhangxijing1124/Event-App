@@ -31,7 +31,7 @@ struct PlanView: View {
                         EventRow(Location: name)
                     }
                 }
-                .navigationTitle("Landmarks")
+                .navigationTitle("Plan")
             }
         }
     }

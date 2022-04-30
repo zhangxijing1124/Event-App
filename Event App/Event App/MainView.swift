@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct MainView: View {
+    
     var body: some View {
         TabView {
             ContentView()
                 .tabItem {
                     Label("Explore", systemImage: "square.text.square")
+                }
+            
+            LocationView()
+                .tabItem {
+                    Label("Nearby", systemImage: "location")
                 }
             
             CreateView()

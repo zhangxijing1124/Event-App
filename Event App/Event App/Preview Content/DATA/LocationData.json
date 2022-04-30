@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name": "Camelback Mountain",
+        "latitude": 33.5161,
+        "longitude": -111.9619,
+        "address": {
+            "streetAddress": "Unnamed Road",
+            "city": "Phoenix",
+            "state": "Arizona",
+            "postalCode": "85018"
+        },
+        "image": "LocationImage01",
+        "events": {
+            "01": "Happy Sunday at Camelback Mountain",
+            "02": "Weekly outdoor activities",
+            "03": "New challenge"
+        }
+    },
+    {
+        "id": 2,
+        "name": "South Mountain",
+        "latitude": 33.3402,
+        "longitude": -112.0609,
+        "address": {
+            "streetAddress": "10919 S Central Ave",
+            "city": "Phoenix",
+            "state": "Arizona",
+            "postalCode": "85042"
+        },
+        "image": "LocationImage02",
+        "events": {
+            "01": "Happy Saturday at South Mountain",
+            "02": "South Mountain plan",
+            "03": "Do something new"
+        }
+    },
+    {
+        "id": 3,
+        "name": "SDFC Intramural Fields",
+        "latitude": 33.4166,
+        "longitude": -111.9312,
+        "address": {
+            "streetAddress": "1110-1150 S McAllister Ave",
+            "city": "Tempe",
+            "state": "Arizona",
+            "postalCode": "85281"
+        },
+        "image": "LocationImage03",
+        "events": {
+            "01": "Soccer night",
+            "02": "ASU World cup"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Sun Devil Fitness Complex",
+        "latitude": 33.4156,
+        "longitude": -111.9326,
+        "address": {
+            "streetAddress": "400 E Apache Blvd",
+            "city": "Tempe",
+            "state": "Arizona",
+            "postalCode": "85287"
+        },
+        "image": "LocationImage04",
+        "events": {
+            "01": "Bench Press Instructions",
+            "02": "leg training",
+            "03": "Basketball game",
+            "04": "Aerobic exercise"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Taste of Tops",
+        "latitude": 33.4218,
+        "longitude": -111.9449,
+        "address": {
+            "streetAddress": "403 W University Dr",
+            "city": "Tempe",
+            "state": "Arizona",
+            "postalCode": "85281"
+        },
+        "image": "LocationImage05",
+        "events": {
+            "01": "Friday beer time",
+            "02": "Saturday beer time",
+            "03": "Sunday beer time"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Low Key Piano Bar",
+        "latitude": 33.4251,
+        "longitude": -111.9399,
+        "address": {
+            "streetAddress": "501 S Mill Ave b101",
+            "city": "Tempe",
+            "state": "Arizona",
+            "postalCode": "85281"
+        },
+        "image": "LocationImage06",
+        "events": {
+            "01": "Friday beer time",
+            "02": "Saturday beer time",
+            "03": "Sunday beer time"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Hayden Library",
+        "latitude": 33.4189,
+        "longitude": -111.9349,
+        "address": {
+            "streetAddress": "300 E Orange St.",
+            "city": "Tempe",
+            "state": "Arizona",
+            "postalCode": "85281"
+        },
+        "image": "LocationImage07",
+        "events": {
+            "01": "Machine Learning Workshop",
+            "02": "iOS & macOS Workshop",
+            "03": "JSON Workshop",
+            "04": "Cyber Security Workshop",
+            "05": "Computer Vision Workshop",
+            "06": "Neural Networks Workshop",
+            "07": "Search Algorithm Workshop",
+        }
+    }
+]

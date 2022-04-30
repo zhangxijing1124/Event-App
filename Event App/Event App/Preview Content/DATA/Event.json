@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "locationId": 1,
+        "totalPeople": 20,
+        "participantsPeople": 15,
+        "type": "Outdoor activity",
+        "date": "Fri Apr 20 4:40 PM",
+        "imageName": "EventImage01"
+    },
+    {
+        "id": 2,
+        "name": "",
+        "locationId": 1,
+        "totalPeople": 20,
+        "participantsPeople": 12,
+        "type": "Outdoor activity",
+        "date": "Fri Apr 20 4:40 PM",
+        "imageName": "EventImage02"
+    },
+    {
+        "id": 3,
+        "name": "",
+        "locationId": 1,
+        "totalPeople": 20,
+        "participantsPeople": 13,
+        "type": "Outdoor activity",
+        "date": "Fri Apr 20 4:40 PM",
+        "imageName": "EventImage03"
+    }
+]
