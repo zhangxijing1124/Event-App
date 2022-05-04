@@ -5,20 +5,10 @@
 //  Created by 张熙景 on 4/21/22.
 //
 
-import SwiftUI
 
-struct EventRow: View {
-    var Location: Locationlist
-    var body: some View {
-        HStack {
-            Location.image
-                .resizable()
-                .frame(width: 50, height: 50)
-            Text(Location.name)
-            Spacer()
-        }
-    }
-}
+// EventData
+
+import SwiftUI
 
 struct PlanView: View {
     var body: some View {
@@ -33,6 +23,20 @@ struct PlanView: View {
                 }
                 .navigationTitle("Plan")
             }
+        }
+    }
+}
+
+// Event row
+struct EventRow: View {
+    var Location: Locationlist
+    var body: some View {
+        HStack {
+            Location.image
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(Location.name)
+            Spacer()
         }
     }
 }

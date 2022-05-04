@@ -7,6 +7,36 @@
 
 import SwiftUI
 
+//{
+//    "id": 1,
+//    "name": "Camelback Mountain",
+//    "latitude": 33.5161,
+//    "longitude": -111.9619,
+//    "address": {
+//        "streetAddress": "Unnamed Road",
+//        "city": "Phoenix",
+//        "state": "Arizona",
+//        "postalCode": "85018"
+//    },
+//    "image": "LocationImage01",
+//    "events": {
+//        "01": 1,
+//        "02": 2,
+//        "03": 3
+//    }
+//},
+
+//{
+//    "id": 1,
+//    "name": "Happy Saturday at South Mountain",
+//    "locationId": 1,
+//    "totalPeople": 20,
+//    "participantsPeople": 15,
+//    "type": "Outdoor activity",
+//    "date": "Fri Apr 20 4:40 PM",
+//    "imageName": "LocationImage01"
+//},
+
 struct CreateView: View {
     @State var UserName = ""
     @State var UserEventName = ""

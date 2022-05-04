@@ -5,7 +5,6 @@
         "locationId": 1,
         "totalPeople": 20,
         "participantsPeople": 15,
-        
         "type": "Outdoor activity",
         "date": "Fri Apr 20 4:40 PM",
         "imageName": "LocationImage01"
@@ -119,8 +118,7 @@
         "type": "Outdoor activity",
         "date": "Fri Apr 20 4:40 PM",
         "imageName": "LocationImage04"
-    }
-    ,
+    },
     {
         "id": 13,
         "name": "Friday beer time",
