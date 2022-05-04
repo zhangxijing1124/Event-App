@@ -14,7 +14,7 @@ struct Location: Codable {
     let latitude, longitude: Double
     let address: Address
     let image: String
-    let events: [String: String]
+    let events: [String: Int]
     
     // Generate samples
     static let allLocation: [Location] = Bundle.main.decode(file: "LocationData.json")
@@ -29,8 +29,10 @@ struct Address: Codable {
 struct Event: Codable {
     let id: Int
     let name: String
-    let location, totalPeople, participantsPeople: Int
-    let type, date, imageName: String
+    let locationID, totalPeople, participantsPeople: Int
+    let type: String
+    let date: String
+    let imageName: String
     
     static let allEvent: [Event] = Bundle.main.decode(file: "Event.json")
     static let sampleEvent: Event = allEvent[0]

@@ -12,9 +12,9 @@
         },
         "image": "LocationImage01",
         "events": {
-            "01": "Happy Sunday at Camelback Mountain",
-            "02": "Weekly outdoor activities",
-            "03": "New challenge"
+            "01": 1,
+            "02": 2,
+            "03": 3
         }
     },
     {
@@ -30,9 +30,9 @@
         },
         "image": "LocationImage02",
         "events": {
-            "01": "Happy Saturday at South Mountain",
-            "02": "South Mountain plan",
-            "03": "Do something new"
+            "01": 4,
+            "02": 5,
+            "03": 6
         }
     },
     {
@@ -48,8 +48,8 @@
         },
         "image": "LocationImage03",
         "events": {
-            "01": "Soccer night",
-            "02": "ASU World cup"
+            "01": 7,
+            "02": 8
         }
     },
     {
@@ -65,10 +65,10 @@
         },
         "image": "LocationImage04",
         "events": {
-            "01": "Bench Press Instructions",
-            "02": "leg training",
-            "03": "Basketball game",
-            "04": "Aerobic exercise"
+            "01": 9,
+            "02": 10,
+            "03": 11,
+            "04": 12
         }
     },
     {
@@ -84,9 +84,9 @@
         },
         "image": "LocationImage05",
         "events": {
-            "01": "Friday beer time",
-            "02": "Saturday beer time",
-            "03": "Sunday beer time"
+            "01": 13,
+            "02": 14,
+            "03": 15
         }
     },
     {
@@ -102,9 +102,9 @@
         },
         "image": "LocationImage06",
         "events": {
-            "01": "Friday beer time",
-            "02": "Saturday beer time",
-            "03": "Sunday beer time"
+            "01": 16,
+            "02": 17,
+            "03": 18
         }
     },
     {
@@ -120,13 +120,13 @@
         },
         "image": "LocationImage07",
         "events": {
-            "01": "Machine Learning Workshop",
-            "02": "iOS & macOS Workshop",
-            "03": "JSON Workshop",
-            "04": "Cyber Security Workshop",
-            "05": "Computer Vision Workshop",
-            "06": "Neural Networks Workshop",
-            "07": "Search Algorithm Workshop",
+            "01": 19,
+            "02": 20,
+            "03": 21,
+            "04": 22,
+            "05": 23,
+            "06": 24,
+            "07": 25
         }
     }
 ]
